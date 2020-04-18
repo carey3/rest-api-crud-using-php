@@ -17,10 +17,8 @@ class API
 	public function database_connection()
 	{
                 simpleLog('Api.php database_connection() ');
-	      //$this->connect = new PDO("mysql:host=localhost:3306;dbname=testing", "rw", "Crazy234");
-	      //$this->connect = new PDO("mysql:host=127.0.0.1:3306;dbname=testing", "rw", "Crazy234");
 	        try {  
-		   $this->connect = new PDO("mysql:host=localhost;dbname=testing", "rw", "Crazy234");
+		   $this->connect = new PDO("mysql:host=localhost;dbname=testing", "rw", "PassWord1");
 		} catch (Exception $e) {
 			$msg = ' exception :'.$e->getMessage();
                         simpleLog('Api.php database_connection()  <'.$msg );
