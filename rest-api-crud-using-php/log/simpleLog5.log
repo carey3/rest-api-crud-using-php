@@ -1,0 +1,10 @@
+04/17 (5) 09:34:56: fetch.php starts with crul_init(http://localhost/rest-api-crud-using-php/api/test_api.php?action=fetch_all)
+04/17 (5) 09:34:58: Api.php __construct() <
+04/17 (5) 09:34:58: Api.php database_connection() 
+04/17 (5) 09:38:08: fetch.php starts with crul_init(http://localhost/rest-api-crud-using-php/api/test_api.php?action=fetch_all)
+04/17 (5) 09:38:08: Api.php __construct() <
+04/17 (5) 09:38:08: Api.php database_connection() 
+04/17 (5) 09:38:08: Api.php fetch_all() SELECT * FROM tbl_sample ORDER BY id 
+
+04/17 (5) 09:38:09: Api.php fetch_all() fetch_all :SELECT * FROM tbl_sample ORDER BY id 
+  done 
